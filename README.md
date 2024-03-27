@@ -49,7 +49,7 @@ Le projet est divisé en modules réutilisables pour faciliter la gestion et la 
    terraform init
    ```
 
-3. Planifier la configuration Terraform :
+3. Visualiser votre infrastructure :
 
 
    ```sh
