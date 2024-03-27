@@ -21,8 +21,8 @@ Ce projet Terraform a pour but de déployer une application web sur AWS, en prov
 Le projet est divisé en modules réutilisables pour faciliter la gestion et la maintenance de l'infrastructure :
 
 - `modules/ebs`: Définit un volume EBS.
-- `modules/ec2`: Configure une instance EC2 avec Ubuntu Bionic, installe nginx et utilise une clé SSH pour l'accès.
-- `modules/eip`: Assigne une adresse IP publique à l'instance EC2.
+- `modules/ec2`: Configure une instance EC2 avec Ubuntu Lunar, installe nginx et utilise une clé SSH pour l'accès.
+- `modules/eip`: Assigne une adresse IP élastique à l'instance EC2.
 - `modules/sg`: Crée un groupe de sécurité qui autorise le trafic HTTP, HTTPS et SSH.
 - `app`: Dossier contenant la configuration de l'application qui utilise les modules pour déployer l'instance EC2.
 
