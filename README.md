@@ -8,7 +8,7 @@ Portfolio : https://www.sid-rabhi.fr/
 
 ---
 
-# Mini-projet Terraform
+# Mini-projet Terraform (IaC)
 
 ![plan du projet terraform](images/plan.jpg "plan du projet terraform")
 
@@ -95,6 +95,6 @@ terraform destroy
 - Ne versionnez jamais vos clés privées ou vos fichiers d'état Terraform.
 - Utilisez des politiques IAM restrictives pour contrôler l'accès aux ressources AWS.
 
-## Support
+## Conclusion
 
-Si vous rencontrez des problèmes ou avez des questions, veuillez ouvrir une issue dans le dépôt du projet.
+Ce mini projet Terraform m'a donné l'occasion de saisir le déploiement d'une infrastructure sur AWS de façon modulaire et reproductible. J'ai acquis une compréhension pratique de l'utilisation des modules Terraform pour définir divers aspects de l'infrastructure AWS, les reliant de manière cohérente pour former un environnement complet.
