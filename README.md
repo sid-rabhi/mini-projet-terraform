@@ -30,7 +30,6 @@ Le projet est divisé en modules réutilisables pour faciliter la gestion et la 
 
 - Terraform installé sur votre machine locale.
 - Avoir un fichier contenant les identifiants AWS appropriés en respectant le bon format.
-- Un bucket S3 pour le backend de Terraform (déjà créé puis configuré dans `app/main.tf`).
 - Une clé SSH privé doit être disponible sur votre machine.
 
 ## Démarrage Rapide
