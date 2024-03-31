@@ -80,8 +80,21 @@ sg_name = "app-sg"
 
 ## Outputs
 
-Après l'exécution, Terraform affichera les ID des ressources créées, y compris l'ID de l'instance EC2 et le nom du groupe de sécurité. Vous trouverez également l'adresse IP publique de l'instance dans le fichier `app/ip_ec2.txt`.
+Après l'exécution, Terraform affichera les ID des ressources créées, vous trouverez également l'adresse IP publique de l'instance dans le fichier `app/ip_ec2.txt`.
 
+---
+
+![L'adresse IP publique de l'instance](images/terra3.png "L'adresse IP publique de l'instance")
+
+---
+
+![AWS](images/terra1.png "AWS")
+
+---
+
+![NGINX](images/terra2.png "NGINX")
+
+---
 ## Nettoyage
 
 Pour détruire l'infrastructure créée par Terraform (et éviter des frais supplémentaires), exécutez :
@@ -89,11 +102,6 @@ Pour détruire l'infrastructure créée par Terraform (et éviter des frais supp
 ```sh
 terraform destroy
 ```
-
-## Sécurité
-
-- Ne versionnez jamais vos clés privées ou vos fichiers d'état Terraform.
-- Utilisez des politiques IAM restrictives pour contrôler l'accès aux ressources AWS.
 
 ## Conclusion
 
